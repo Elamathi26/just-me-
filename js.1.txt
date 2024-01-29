@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var request = new XMLHttpRequest();
 //.open method
 //2 parameters
@@ -11,3 +12,7 @@ request.onload=function(){
     var result=JSON.parse(request.response);
     for(let i = 0 ; i< result.length ; i++){
         console.log(result[i].flags);   
+=======
+assiangment purpose
+daily 
+>>>>>>> e169daff866da91df7ae9e4690332d365de6d641
